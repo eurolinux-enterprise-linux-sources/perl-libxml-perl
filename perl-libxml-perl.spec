@@ -1,6 +1,6 @@
 Name:           perl-libxml-perl
 Version:        0.08
-Release:        18%{?dist}
+Release:        19%{?dist}
 Summary:        A collection of Perl modules for working with XML
 Group:          Development/Libraries
 License:        (GPL+ or Artistic) and Public Domain
@@ -44,6 +44,9 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.08-19
+- Mass rebuild 2013-12-27
+
 * Thu Nov 22 2012 Petr Šabata <contyk@redhat.com> - 0.08-18
 - Correct buildtime dependencies
 - Correct the licence tag
